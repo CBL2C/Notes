@@ -8,8 +8,8 @@ It provides the basic structure of a page's layout - text, media, ads, navigatio
 **Page Structure:**
 
 An HTML file is comprised of two basic components: 
-* Head
-* Body 
+* ```<head>```
+* ```<body>``` 
 
 A footer is also sometimes added on after the main body, but this is optional and is becoming less and less of a default for web developers. 
 
@@ -25,13 +25,14 @@ A footer is also sometimes added on after the main body, but this is optional an
     <title>HTML 5 Boilerplate Starter</title>     // Title of the page goes in the head
   </head>
   <body>
-           // The actual page content of the web page goes in the body
+                    // The actual page content of the web page goes in the body
   </body>
 </html>
 ```
 <br>
 
 ## Head 
+The 
 
 
 
@@ -39,6 +40,8 @@ A footer is also sometimes added on after the main body, but this is optional an
 
 ## Body
 The Body of an HTML file is the content that appears to someone viewing that page in a web browser. This is the only part of a web page that is easily Human-Readable and accessible to the layperson using the web. 
+
+Any and all content meant to be viewed by the average internet user always goes in the Body.
 
 
 <br>
