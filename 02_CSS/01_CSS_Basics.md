@@ -1,9 +1,25 @@
 # Basic CSS Notes
 
-CSS is Cascading Style Sheets.  
-The "cascading" algorithm determines how CSS is applied to a web page.
+CSS is short for Cascading Style Sheets.  
+The "cascading" algorithm determines how CSS is applied to a web page. For now, know that CSS rules "cascade" down the page, and that rules farther down the document will overwrite the same rules above.
 
-CSS determines the width, height, colors, margins, borders, backgrounds, etc. of web pages. 
+So if I have at the very top of my document on Line 1:
+```css
+body{
+    background-color: green;
+}
+```
+but on line 299, I have:
+```css
+body{
+    background-color: red;
+}
+```
+The page's ```background-color``` will be ```red```, because the rule on line 299 **overwrites** the rule on Line 1.
+<br>
+
+CSS determines the width, height, colors, margins, borders, backgrounds, etc. of web pages.  
+CSS is **incredibly** powerful and **incredibly** flexible. Many times a difficult animation or transition that is assumed to be JS wizardry is actually just a good grasp of what CSS can do. 
 
 <br>
 
