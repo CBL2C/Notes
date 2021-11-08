@@ -17,7 +17,6 @@ A footer is also sometimes added on after the main body, but this is optional an
 
 **Basic HTML File Boilerplate:**
 ```html
-
 <!DOCTYPE html>                                   // Declaring that the HTML Document uses HTML5
 <html lang="en">                                  // Declaring the HTML language helps the browser render it appropriately
   <head>
@@ -28,12 +27,11 @@ A footer is also sometimes added on after the main body, but this is optional an
   <body>
                     // The actual page content of the web page goes in the body
   </body>
-
 </html>
 ```
 <br>
 
-## Head 
+## Head
 The ```<head>``` of an HTML file is where various metadata is set. This is important information that helps the web browser properly parse and render the web page.  
 
 The ```<head>``` is where Javascript files and CSS stylesheets will be linked to the HTML document. It is also where the ```<title>``` of the page is set and where the charset type is enforced (usually UTF-8 for English)
@@ -72,4 +70,23 @@ If a heading is too large, use CSS to resize it over using a less important head
 <br>
 
 
-###
+### Example Web Page
+
+Here is an example of a web page's HTML that you might see in real life: 
+
+```html
+<!DOCTYPE html>                                   
+<html lang="en">                                 
+  <head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" src="../style.css">                       
+    <title>HTML 5 Boilerplate Starter</title>     
+  </head>
+
+  <body>
+    <div>
+      <span>Some Text</span>
+    </div>     
+  </body>
+</html>
+```
