@@ -97,47 +97,40 @@ Common selectors include:
 * class selectors
 
 
-#### An element css selector referencing the HTML element type
-
+### Element Selector
 ``` css
     h2 {
        font-family:monospace;
    }
 ```
+<br>
 
-#### A class css selector referencing the HTML class
+### ```class``` Selector
 ```class``` selectors may be applied to multiple HTML elements.  
 Multiple ```class``` selectors may be applied to a single element.
-A ```class```
-
 ``` css 
     .redclass {
        color:red;
    }
 ```
+<br>
 
-#### An id css selector referencing the HTML id
+### ```id``` Selector
 ```id``` selectors should be unique and only applied to one HTML element.  
 If ```id``` is used multiple times, only the first element with that ```id``` will be targeted
 
 Multiple ```id```s cannot be set on the same element
-
 ```css
     #bigdiv {
         background-color:red;
    }
 ```
-
-Example:
-
 ```html
     <div id="bigDiv">
         <h2>Hello World</h2> 
         <h3 class="redclass">Red Red Red</h3>
     </div>
 ```
-
-
 ```css
 h2 {
     font-size: 18px;
@@ -151,9 +144,10 @@ h2 {
     color: blue;
 }
 ```
+
 <br>
 
-### HTML Span Element
+## HTML Span Element
 The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects.  
 
 ```html
@@ -171,7 +165,7 @@ The ```<span>``` element is an HTML element that allows you to drop a CSS class 
 
 <br>
 
-### Pixels vs. Em vs. Rem
+## Pixels vs. Em vs. Rem
 
 ```css
 /* Pixels are not fixed across resolutions */
@@ -195,16 +189,12 @@ Pixels do not render at the same size across different monitors:
 
 Because of this, it is better to use ```em``` and ```rem``` than it is to use ```px```
 
-#### Em
+### Em
 ```em``` is relative to the font size of its direct or nearest parent.  
 Because of this, ```em```'s size may fluctuate based on where in the page it is used.
 
 
-#### Rem
+### Rem
 ```rem``` is relative to the root HTML document font size, so using ```rem``` will always scale to the same size across HTML elements
 
-
-
-
 <br>
-
