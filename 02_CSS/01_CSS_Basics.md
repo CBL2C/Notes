@@ -96,6 +96,7 @@ Common selectors include:
 * id selectors
 * class selectors
 
+<br>
 
 ### Element Selector
 ``` css
@@ -131,18 +132,10 @@ Multiple ```id```s cannot be set on the same element
         <h3 class="redclass">Red Red Red</h3>
     </div>
 ```
-```css
-h2 {
-    font-size: 18px;
-}
+<br>
 
-#bigDiv {
-    display: inline;
-}
-
-.redclass {
-    color: blue;
-}
+### Attribute Selector
+```html
 ```
 
 <br>
