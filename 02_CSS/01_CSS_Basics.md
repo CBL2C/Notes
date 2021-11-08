@@ -140,7 +140,7 @@ Multiple ```id```s cannot be set on the same element
 
 <br>
 
-## HTML Span Element
+## HTML ```<span>``` Element
 The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects.  
 
 ```html
@@ -155,6 +155,10 @@ The ```<span>``` element is an HTML element that allows you to drop a CSS class 
     <p>I wish this <span class="red">text was red</span></p>
 </body>
 ```
+<br>
+
+## HTML ```<div>``` Element
+The ```<div>``` element is an HTML element that allows you to separate your information into divided sections. Its primary features are the ability to give a ```<div>``` an ```id``` or ```class```
 
 <br>
 
