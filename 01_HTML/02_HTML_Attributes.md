@@ -18,6 +18,26 @@ Multiple atributes can be added to an HTML element by adding a space between att
 
 <br>
 
+## Common Attributes
+Some atttributes are more common to see than others on particular web pages, and some attributes have special behaviors that are worth knowing by heart
+
+### ```id```
+```html
+<div id="profileCard">Some Div Content Here</div>
+```
+The ```id``` attribute is meant to be a **single, unique attribute** that is **not repeated on the page**.  
+While you as a developer *can* choose to use multiples of the same ```id``` attribute for CSS use, this is **not advised**. 
+
+Once you get into working with **JS**, it will become **extremely** important to follow the rule of only using **one unique ```id``` per ```id``` attribute** because **JS will only look for the first unique ```id``` attribute it finds and then stop.**   
+
+So if you use more than one of the same unique ```id``` selectors while working with JS, you will run into problems. **Don't Do It.**
+
+<br>
+
+### Class
+
+<br>
+
 ## Boolean Attributes
 ```html
 <p hidden>Lorem ipsum kitten doughnut french press suspenders lolcat</p>
