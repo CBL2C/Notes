@@ -36,8 +36,8 @@ The ```<head>``` of an HTML file is where various metadata is set. This is impor
 
 The ```<head>``` is where Javascript files and CSS stylesheets will be linked to the HTML document. It is also where the ```<title>``` of the page is set and where the charset type is enforced (usually UTF-8 for English)
 
-In the event that you are writing inline (in-document) CSS, the ```<head>``` is also where the ```<style>``` tags and your inline CSS would go.  
-But **please do not write inline CSS as it is bad practice, use External Stylesheets**.
+In the event that you are writing internal (in-document) CSS, the ```<head>``` is also where the ```<style>``` tags and your inline CSS would go.  
+But **please do not write internal CSS as it is bad practice, use External Stylesheets**.
 
 <br>
 
