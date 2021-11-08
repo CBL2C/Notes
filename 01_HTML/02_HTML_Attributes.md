@@ -22,11 +22,12 @@ Multiple atributes can be added to an HTML element by adding a space between att
 Some atttributes are more common to see than others on particular web pages, and some attributes have special behaviors that are worth knowing by heart
 
 ### ```id```
+The ```id``` attribute is meant to be a **single, unique attribute** that is **not repeated on the page**.  
+While you as a developer *can* choose to use multiples of the same ```id``` attribute for CSS use, this is **not advised**. 
 ```html
 <div id="profileCard">Some Div Content Here</div>
 ```
-The ```id``` attribute is meant to be a **single, unique attribute** that is **not repeated on the page**.  
-While you as a developer *can* choose to use multiples of the same ```id``` attribute for CSS use, this is **not advised**. 
+
 
 Once you get into working with **JS**, it will become **extremely** important to follow the rule of only using **one unique ```id``` per ```id``` attribute** because **JS will only look for the first unique ```id``` attribute it finds and then stop.**   
 
@@ -51,6 +52,8 @@ When the paragraph above is mouse-hovered, a tooltip appears with the title cont
 <br>
 
 ### ```class```
+The ```class``` attribute can be used multiple times throughout a web page, and a HTML attribute may have multiple classes
+
 
 
 <br>
