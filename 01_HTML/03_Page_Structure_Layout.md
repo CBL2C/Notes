@@ -24,9 +24,11 @@ A footer is also sometimes added on after the main body, but this is optional an
     <meta charset="UTF-8">                        // Declare the character set
     <title>HTML 5 Boilerplate Starter</title>     // Title of the page goes in the head
   </head>
+
   <body>
                     // The actual page content of the web page goes in the body
   </body>
+  
 </html>
 ```
 <br>
