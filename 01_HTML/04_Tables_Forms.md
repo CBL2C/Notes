@@ -3,6 +3,10 @@
 ## Tables
 Tables are used to arrange content into rows and columns in a tabular format.  
 
+**TABLES ARE GARBAGE.** ***PLEASE*** **DO NOT USE TABLES UNLESS YOU ABSOLUTELY HAVE TO.**
+Tables are the spawn of Satan and are extremely difficult to style.  
+**Save yourself your own sanity and don't use Tables if you can use literally any other option!**
+
 ### Basic Tables
 ```html
 <table>                         // Opening the table element itself
