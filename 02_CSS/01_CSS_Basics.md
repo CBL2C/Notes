@@ -28,6 +28,8 @@ CSS may be applied to a web page using two methods:
 * External Stylesheets
 * Internal Stylesheets
 
+<BR>
+
 ### External Stylesheets
 External stylesheets are CSS documents that exist on their own, independent from any other code or HTML.  
 **External stylesheets are the preferred way to utilize CSS**     
@@ -40,6 +42,7 @@ External stylesheets are linked in HTML with ```link rel```:
 ```html
 <link rel="stylesheet" href="CSS/Style.css">
 ```
+<br>
 
 
 ### Internal Stylesheets
@@ -59,7 +62,7 @@ Internal stylesheets are placed in the ```<head>``` of an HTML document using ``
     <title>Some Web Page</title>
   </head>
 ```
-
+<br>
 
 ### Inline Styles -- NO!
 CSS styling *can* be applied directly to HTML elements... but please don't. **Please don't do this.**  
