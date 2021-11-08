@@ -67,8 +67,8 @@ A semantic element describes its meaning to both developers and the browser. Its
 
 <br>
 
-## Special Elements
-### ```<span>```
+
+## ```<span>```
 The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects.
 
 More about this in notes about CSS 
