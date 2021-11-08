@@ -31,9 +31,8 @@ CSS may be applied to a web page using two methods:
 <BR>
 
 ### External Stylesheets
-External stylesheets are CSS documents that exist on their own, independent from any other code or HTML.  
-**External stylesheets are the preferred way to utilize CSS**     
-They are easier to maintain and have the advantage of being modular.  
+**External stylesheets are the preferred way to utilize CSS**  
+External stylesheets are CSS documents that exist on their own, independent from any other code or HTML. They are easier to maintain and have the advantage of being modular.  
 External stylesheets can also be linked to multiple HTML pages.
 ```css
 stylesheet.css
@@ -46,7 +45,9 @@ External stylesheets are linked in HTML with ```link rel```:
 
 
 ### Internal Stylesheets
-Internal stylesheets are placed in the ```<head>``` of an HTML document using ```<style>``` tags.
+Internal stylesheets are placed in the ```<head>``` of an HTML document using ```<style>``` tags.  
+Internal Stylesheets are sometimes still used, but in general it's seen as bad practice to internally style a page's CSS in ```<style>``` tags.  
+**When in doubt, Use an External Stylesheet instead**
 ```html
 <!DOCTYPE html>
 <html lang="en">
