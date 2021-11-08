@@ -46,7 +46,7 @@ The ```title``` attribute allows you to set a title for any HTML element on the 
 <p title="All About Dogs!">Lots of information about dogs here</p>
 ```
 When the paragraph above is mouse-hovered, a tooltip appears with the title content inside:
-<img src="../images/tooltip.PNG"> 
+<br><img src="../images/tooltip.PNG"> 
 
 <br>
 
