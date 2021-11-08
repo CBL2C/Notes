@@ -28,22 +28,25 @@ A footer is also sometimes added on after the main body, but this is optional an
   <body>
                     // The actual page content of the web page goes in the body
   </body>
-  
+
 </html>
 ```
 <br>
 
 ## Head 
-The 
+The ```<head>``` of an HTML file is where various metadata is set. This is important information that helps the web browser properly parse and render the web page.  
 
+The ```<head>``` is where Javascript files and CSS stylesheets will be linked to the HTML document. It is also where the ```<title>``` of the page is set and where the charset type is enforced (usually UTF-8 for English)
 
+In the event that you are writing inline (in-document) CSS, the ```<head>``` is also where the ```<style>``` tags and your inline CSS would go.  
+But **please do not write inline CSS as it is bad practice, use External Stylesheets**.
 
 <br>
 
 ## Body
-The Body of an HTML file is the content that appears to someone viewing that page in a web browser. This is the only part of a web page that is easily Human-Readable and accessible to the layperson using the web. 
+The ```<body>``` of an HTML file is the content that appears to someone viewing that page in a web browser. This is the only part of a web page that is easily Human-Readable and accessible to the layperson using the web. 
 
-Any and all content meant to be viewed by the average internet user always goes in the Body.
+Any and all content meant to be viewed by the average internet user always goes in the ```<body>```.
 
 
 <br>
