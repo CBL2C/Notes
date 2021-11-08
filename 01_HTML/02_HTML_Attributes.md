@@ -49,12 +49,10 @@ The ```title``` attribute allows you to set a title for any HTML element on the 
 When the paragraph above is mouse-hovered, a tooltip appears with the title content inside:
 <br><img src="../images/tooltip.PNG"> 
 
-<br>
+
 
 ### ```class```
 The ```class``` attribute can be used multiple times throughout a web page, and a HTML attribute may have multiple classes
-
-
 
 <br>
 
