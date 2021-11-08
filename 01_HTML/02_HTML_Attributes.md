@@ -63,6 +63,7 @@ If we were to remove the spaces, like this:
 <div class="mainClass_subClass1_otherSubClass2">some div content</div>
 ```
 Then the page parser would read ```mainClass_subClass1_otherSubClass2``` all as one class, instead of the separate classes ```mainClass```, ```subClass1```, and ```otherSubClass2```.
+
 <br>
 
 ## Boolean Attributes
