@@ -52,8 +52,17 @@ When the paragraph above is mouse-hovered, a tooltip appears with the title cont
 
 
 ### ```class```
-The ```class``` attribute can be used multiple times throughout a web page, and a HTML attribute may have multiple classes
+The ```class``` attribute can be used multiple times throughout a web page, and a HTML attribute may have multiple classes:
+```HTML
+<div class="mainClass subClass1 otherSubClass2">some div content</div>
+```
+When adding multiple classes to a HTML element, a space is used to differentiate between different classes.  
 
+If we were to remove the spaces, like this:
+```html
+<div class="mainClass_subClass1_otherSubClass2">some div content</div>
+```
+Then the page parser would read ```mainClass_subClass1_otherSubClass2``` all as one class, instead of the separate classes ```mainClass```, ```subClass1```, and ```otherSubClass2```.
 <br>
 
 ## Boolean Attributes
