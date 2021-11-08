@@ -74,7 +74,7 @@ You may have made it work, but no one is happy & now your mess needs cleaned up.
 **Do Not Do This:**
 ```html
 <body>
-    <--! Please Don't Do This -->
+    <--! Please Do Not Do This -->
     <section style="background-color:#333333;">     // NO!!
     <--! God No -->
     </section>
