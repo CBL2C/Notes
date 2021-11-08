@@ -74,20 +74,3 @@ Then the page parser would read ```mainClass_subClass1_otherSubClass2``` all as 
 Some attributes will not have values, as they have their "true" state implied by existing in the tag. 
 
 ```hidden``` is one such attribute - by being present in the tag, the element is hidden. This element's existence implies its function is active. 
-
-<br>
-
-## Semantic and Non-Semantic Elements
-
-**Semantic** elements are elements with meaning.   
-A semantic element describes its meaning to both developers and the browser. Its name is descriptive and indicative of its function:
-
-* ```<form>```
-* ```<head>```
-* ```<nav>```
-* ```<footer>```
-
-**Non-Semantic** elements tell you nothing about their content:
-* ```<div>```
-* ```<span>```
-

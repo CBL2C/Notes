@@ -48,3 +48,19 @@ The basic elements of an HTML page are:
 - An image denoted using the ```<img>``` tag
 - A divider denoted using the ```<div>``` tag
 - A text span denoted using the ```<span>``` tag
+
+<br>
+
+## Semantic and Non-Semantic Elements
+
+**Semantic** elements are elements with meaning.   
+A semantic element describes its meaning to both developers and the browser. Its name is descriptive and indicative of its function:
+
+* ```<form>```
+* ```<head>```
+* ```<nav>```
+* ```<footer>```
+
+**Non-Semantic** elements tell you nothing about their content:
+* ```<div>```
+* ```<span>```
