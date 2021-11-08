@@ -67,7 +67,6 @@ If a heading is too large, use CSS to resize it over using a less important head
 ```
 <img src="../images/Headings.JPG">
 
-<br>
 
 
 ### Example Web Page
