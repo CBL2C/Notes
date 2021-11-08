@@ -85,14 +85,11 @@ You may have made it work, but no one is happy & now your mess needs cleaned up.
 
 <br>
 
-## CSS Styling and Rules
-### Basic CSS Declaration
+## CSS Selectors
 <img src="../images/CSSRuleSet.png">
 
-<br>
 
-### CSS Selectors
-Every CSS rule starts with a selector, seen above in pink.
+Every CSS rule starts with a selector, seen above in pink. These selectors often are the same or very similar to HTML Attributes that we have already covered, and reference those attributes. 
 
 Common selectors include:
 * element (type) selectors
