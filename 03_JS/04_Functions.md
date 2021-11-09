@@ -94,6 +94,17 @@ function callMe(catchyWord) {
 callMe("Maybe?");                // Maybe?
 ```
 
+**Arguments are positional.** 
+
+They do not rely on anything except their position in the function invocation, and that position's relation to the parameters in the function being called:
+```js
+function addThreeNums(first, second, third){
+  console.log(first + second + third)
+}
+
+addThreeNums(1, 2, 3);
+```
+Here, ```first``` is ```1```, ```second``` is ```2```, and ```third``` is ```3```  
 
 <br>
 
