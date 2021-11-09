@@ -49,4 +49,5 @@ An Inline-Grid has the same HTML layout as above, but with a single CSS change:
 }
 ```
 And the results:
+
 <img src="../images/Grid2.PNG">

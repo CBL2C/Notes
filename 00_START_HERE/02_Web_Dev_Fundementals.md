@@ -1,20 +1,20 @@
 # Web Development Fundementals
 ## HTML vs. CSS vs. JS
 ### HTML
-- HyperText Markup Language
+**HyperText Markup Language**
 - Used to give structure and meaning to and define webpage content 
     - text, images, audio, video, forms, etc
 - First language of the web 
     - most basic building block of a web page
 
 ### CSS
-- Cascading Style Sheets
+**Cascading Style Sheets**
 - Create and change webpage appearance, styles & positioning 
     - fonts, colors, margins, animations, art, backgrounds, div styles, etc
 - Changes apply top-down, later changes **overwrite** previous changes
 
 ### JS
-- JavaScript
+**JavaScript**
     - Programming language: able to make computations and transform data according to logical instructions
 - Can change the HTML and CSS of a webpage and make it dynamic: change it in response to conditions in the code
 - Most powerful & complex of the three core technologies
