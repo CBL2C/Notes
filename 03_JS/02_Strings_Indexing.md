@@ -31,8 +31,8 @@ Examples:
 "That's a great string";
 // for putting apostrephes in strings
 ```
-- Strings must have their opening and closing quotes match
-- Strings must not have the same quotes inside them as punctuation:
+Strings must have their opening and closing quotes match
+Strings must not have the same quotes inside them as punctuation:
 ```js 
 'That's a bad string';
 ```
@@ -53,8 +53,8 @@ console.log("".length);             // 0
 <br>
 
 ## Indexing
-- Indexes start at 0.
-- The index will always be 1 less than the ```.length```
+Indexes start at 0
+The index will always be 1 less than the ```.length```
 ```js
 console.log("cat".length);          // 3
 console.log("cat"[3]);              // undefined
@@ -78,19 +78,19 @@ console.log("marigold"[-3]);        // undefined
 ```js
 console.log("h4xx0r"["h4xx0r".length])
 ```
-- here, you are asking for js to find the length of the string "haxxor" as an index -- but because the index is always one less than the string length, it returns undefined
+here, you are asking for js to find the length of the string "haxxor" as an index -- but because the index is always one less than the string length, it returns undefined
 
 ```js
 console.log("h4xx0r"["h4xx0r".length - 1])
 ```
 
-- here, this will always find the last letter of the string (because the index is always one less than the character count / length)
+here, this will always find the last letter of the string (because the index is always one less than the character count / length)
 
 <br>
 
 ### Finding the Indexed Letter
-- ```.indexOf``` starts at a beginning of a string checking for characters
-- once it finds the character it's looking for it returns and stops executing
+```.indexOf``` starts at a beginning of a string checking for characters
+once it finds the character it's looking for it returns and stops executing
 ```js
 console.log("bagel".indexOf("b"));  // 0
 console.log("bagel".indexOf("a"));  // 1
@@ -106,7 +106,7 @@ console.log("baaaa".indexOf("a"));  // 1
 <br>
 
 ### Finding the Indexed Character Snippet
-- ```.indexOf``` will return the inxex at the START of the snippet
+```.indexOf``` will return the inxex at the START of the snippet
 ```js
 console.log("door hinge".indexOf("oor"));   // 1
 console.log("door hinge".indexOf("hi"));    // 5
@@ -117,7 +117,7 @@ console.log("door hinge".indexOf("hint"));  // -1
 <br>
 
 ## Concatenating Strings
-- Concatenation is joining two strings together
+Concatenation is joining two strings together
 ```js
 console.log("hello" + "world");             // 'helloworld'
 console.log("goodbye" + " " + "moon");      // 'goodbye moon'
@@ -136,34 +136,4 @@ console.log(message);                       // " What a beautiful day! "
 message.trim();                             // "What a beautiful day!"
 ```
 <br>
-
-## ```typeof```
-The ```typeof``` operator evauates the type of data it is being given and returns a string representing the type:
-
-```js
-var goodBoy = "dog"
-var isCatBetter = true
-var howManyCats = 11 
-
-var catsCatsCats = function catCeption() {
-                     if (howManyCats < 20) {
-                      howManyCats++
-                     }
-                     return howManyCats
-                   }
-```
-
-```js
-var typeGoodBoy = typeof goodBoy 
-console.log(typeGoodBoy);                           // "string"
-
-var typeIsCatBetter = typeof isCatBetter
-console.log(typeIsCatBetter);                       // "boolean"
-
-var typeHowManyCats = typeof howManyCats  
-console.log(typeHowManyCats);                       // "number"
-
-var typeCatsCatsCats = typeof catsCatsCats
-console.log(typeCatsCatsCats);                      // "function"
-```
 
