@@ -25,6 +25,7 @@ Now, to add CSS:
 }
 ```
 Which makes:
+
 <img src="../images/Grid1.PNG">
 <br>
 
