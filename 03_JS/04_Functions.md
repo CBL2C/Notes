@@ -37,6 +37,7 @@ myFunction(argument1,argument2)           // ? the arguments passed to the funct
 
 <br>
 
+### Parameters
 **The following function does not use real numbers.**  
 **Instead, it uses parameters.** 
 ```js
@@ -49,12 +50,12 @@ function average(number1, number2) {
   average(10, 16)                             // 13
 ```
 
-- when defining a function with parameters, you are declaring those parameters as usable variables within that function.
-- ```number1``` and ```number2``` are now variables
+when defining a function with parameters, you are declaring those parameters as usable variables within that function.  
+```number1``` and ```number2``` are now *parameters*, or variables specifically passed to the function
 
 <br>
 
-### Sometimes functions do not have included parameters
+**Sometimes functions do not have included parameters**
 ```js
 function testMe(){
   // some code to execute
@@ -77,7 +78,7 @@ callMe("Maybe?");                // Maybe?
 
 <br>
 
-**Sometimes funky things can happen:**
+### ```return``` and functions
 ```js
 // functions return "undefined" by default
 function addTwo(num1, num2){
@@ -86,6 +87,7 @@ function addTwo(num1, num2){
 
 console.log(addTwo(1,2));        // undefined
 ```
+This function did not run correctly
 
 **What happened?**
 - The function needs to return the value
@@ -116,38 +118,21 @@ console.log(addTwo(1,2));        // 3
 
 
 ## Function Expression Syntax
-- Functions can be declared using Function Declaration or Function Expression Syntax
-- Function Declaration is already familiar:
+Functions can be declared using Function Declaration or Function Expression Syntax
+
+Function Declaration is already familiar:
+
+### Function Declaration
 ```js
-// * Function Declaration
 function newFunction(parameter1,parameter2){
     // some-code
 }
 ```
 
-
+Function expression looks a bit different: 
+### Function Expression
 ```js
-function sayHello(){
-    console.log("hello");
-    console.log("bye");
-}
-
-++
-// * Function Expression
 let newFunction = function (parameter1,parameter2){
     // some-code
 }
-```
-
-```js
-let sayHello = function(){
-    console.log("Hello Everyone");
-}
-```
-
-```js
-const arr = [getAvg, name, age];
-
-console.log(arr[0](6,4)); // 5
-// ? here, we are indexing into the array arr and passing in arguments for function getAvg
 ```
