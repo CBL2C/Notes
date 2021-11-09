@@ -95,8 +95,9 @@ To apply content sizing to all boxes on the page:
         }
 ```
 
-\-\- more information on this at [this blog](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice)
+ **more information on this at [this blog](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice)**
 
 <br>
 
-## Inner and Outer Types
+## More
+For a more in-depth look at the Box Model and CSS Box rules, **[this Resource](https://drafts.csswg.org/css-box-3/#intro)** will be very helpful
