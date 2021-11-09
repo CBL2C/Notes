@@ -135,13 +135,17 @@ Multiple ```id```s cannot be set on the same element
 <br>
 
 ### Attribute Selector
-```html
+```css
+a[title]{                        // select all <a> tags that have a title
+    font-size: 1.5 rem;
+}
 ```
+An attribute selector will search for an attribute *with the given selector inside* - in this example, the selector is searching for all ```<a>``` tags that also have a ```title``` inside the tag
 
 <br>
 
 ## HTML ```<span>``` Element
-The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects.  
+The ```<span>``` element is an HTML element that allows you to drop a CSS class or id hook wherever you need with no unwanted side effects
 
 ```html
 <head>
@@ -159,7 +163,11 @@ The ```<span>``` element is an HTML element that allows you to drop a CSS class 
 
 ## HTML ```<div>``` Element
 The ```<div>``` element is an HTML element that allows you to separate your information into divided sections. Its primary features are the ability to give a ```<div>``` an ```id``` or ```class```
-
+```css
+<body>
+<div class="first">Fiiiiirrrrstt!</div>
+</body>
+```
 <br>
 
 ## Pixels vs. Em vs. Rem
@@ -187,8 +195,8 @@ Pixels do not render at the same size across different monitors:
 Because of this, it is better to use ```em``` and ```rem``` than it is to use ```px```
 
 ### Em
-```em``` is relative to the font size of its direct or nearest parent.  
-Because of this, ```em```'s size may fluctuate based on where in the page it is used.
+```em``` is relative to the font size of its direct or nearest parent  
+Because of this, ```em```'s size may fluctuate based on where in the page it is used
 
 
 ### Rem
