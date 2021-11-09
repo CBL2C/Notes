@@ -135,3 +135,35 @@ let message = " What a beautiful day! "
 console.log(message);                       // " What a beautiful day! "
 message.trim();                             // "What a beautiful day!"
 ```
+<br>
+
+## ```typeof```
+The ```typeof``` operator evauates the type of data it is being given and returns a string representing the type:
+
+```js
+var goodBoy = "dog"
+var isCatBetter = true
+var howManyCats = 11 
+
+var catsCatsCats = function catCeption() {
+                     if (howManyCats < 20) {
+                      howManyCats++
+                     }
+                     return howManyCats
+                   }
+```
+
+```js
+var typeGoodBoy = typeof goodBoy 
+console.log(typeGoodBoy);                           // "string"
+
+var typeIsCatBetter = typeof isCatBetter
+console.log(typeIsCatBetter);                       // "boolean"
+
+var typeHowManyCats = typeof howManyCats  
+console.log(typeHowManyCats);                       // "number"
+
+var typeCatsCatsCats = typeof catsCatsCats
+console.log(typeCatsCatsCats);                      // "function"
+```
+
