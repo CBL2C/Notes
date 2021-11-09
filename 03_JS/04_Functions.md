@@ -19,7 +19,7 @@ addNumbers() {
 ## First Class Objects
 - Functions are First Class Objects in JavaScript
 - First Class objects can be:
-    - Stored in a variable, Object, or Array
+    - Stored in a [variable](../03_JS/01_JS_Basics.md), [Object](../03_JS/12_Objects_Nested_Destructuring.md), or [Array](../03_JS/09_Arrays.md)
     - Passed as an argument to a function
     - returned from a function
 
