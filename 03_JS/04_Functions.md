@@ -75,6 +75,20 @@ function callMe(catchyWord) {
 
 callMe("Maybe?");                // Maybe?
 ```
+In this example above, when we invoke ```callMe();``` we are *passing* ```"second"```, ```"third"``` and ```"catchyWord"``` *into the function* ```callMe();```-- each of these strings being passed in is called an *argument*
+<br>
+
+### Arguments
+When you invoke a function with parameters, you *must* pass in **arguments** for those parameters:
+```js
+function callMe(catchyWord) {
+  console.log(catchyWord);
+    }
+
+callMe();                // throws error
+```
+```js
+```
 
 <br>
 

@@ -9,7 +9,7 @@ But some inbuilt functions, like the ones in this document, are general to Javas
 <br> 
 
 ## ```typeof```
-The ```typeof``` operator evauates the type of data it is being given and returns a string representing the type:
+The ```typeof``` function evauates the type of data it is being given and returns a string representing the type:
 
 ```js
 var goodBoy = "dog"
@@ -26,15 +26,45 @@ var catsCatsCats = function catCeption() {
 
 ```js
 var typeGoodBoy = typeof goodBoy 
-console.log(typeGoodBoy);                           // "string"
+console.log(typeGoodBoy);                           // string
 
 var typeIsCatBetter = typeof isCatBetter
-console.log(typeIsCatBetter);                       // "boolean"
+console.log(typeIsCatBetter);                       // boolean
 
 var typeHowManyCats = typeof howManyCats  
-console.log(typeHowManyCats);                       // "number"
+console.log(typeHowManyCats);                       // number
 
 var typeCatsCatsCats = typeof catsCatsCats
-console.log(typeCatsCatsCats);                      // "function"
+console.log(typeCatsCatsCats);                      // function
 ```
 
+<br>
+
+## ```Number();```
+The ```Number();``` function intakes a string and transforms it into a number type  
+This is very useful if you have some sort of user input or incoming data that has numerical characters as strings instead of numbers and you need to perform mathematical operations on those strings. 
+
+**What happens when you try to add a string and an number? Concatenation!**
+```js
+var firstNumber = 100
+var secondNumber = "2"
+
+
+var added = firstNumber + secondNumber;
+console.log(added);                                 // 1002
+console.log(typeof added);                          // string
+```
+What happened? Why is this not ```102```?
+
+```"2"``` is a string, not a number like ```100``` -- so ```100``` and ```"2"``` became the concatenated string ```"1002"```
+
+**Now, the magic of ```Number();```:**
+```js
+var firstNumber = 100
+var secondNumber = "2"
+
+var added = firstNumber + Number(secondNumber);
+console.log(added);                                 // 102
+console.log(typeof added);                          // number
+```
+<br>
