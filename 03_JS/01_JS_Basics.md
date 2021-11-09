@@ -53,7 +53,7 @@ Debugging means to locate and solve errors in your code. ```console.log``` is mo
 ## Order of Operations
 **In order of importance, order of operations is:**
 ```js
-() % / * + -
+()   % / *   + -
 
 ()      // top priority
 
@@ -74,7 +74,7 @@ console.log(6 + 4 / (8 % 6) - 6)   // 2
 (6 + 4 / (8 % 6) - 6)              // ((8 % 6)) === 2    |  Parenthesis is top priority
 (6 + 4 / (2) - 6)                  // (4 / (2)) === (2)  |  Division is top priority
 (6 + (2) - 6)                      // (6 + (2)) === 8    |  Addition and subtraction have equal priority, go left to right
-(8 - 6)                            // ((8) - 6) = 2      |  Subtraction is left
+(8 - 6)                            // ((8) - 6) = 2      |  Subtraction is the only operation remaining
 (2)                                // (2)                |  Expression returns 2
 ```
 <br>
