@@ -68,3 +68,10 @@ console.log(added);                                 // 102
 console.log(typeof added);                          // number
 ```
 <br>
+
+Keep in mind that this only works if the string in question cabe evaluated as a number:
+```js
+var addMore = 10 + Number("9a")
+console.log(addMore);                               // NaN
+```
+Here, the result is ```NaN```, or Not a Number
