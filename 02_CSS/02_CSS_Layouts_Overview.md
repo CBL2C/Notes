@@ -8,3 +8,6 @@ See [Box Model](../02_CSS/03_Box_Model.md)
 <br>
 
 ## Grid 
+Grid Layout creates a grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning for CSS Box Model elements
+
+See [Grid](../02_CSS/04_Grid.md)
