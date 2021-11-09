@@ -53,7 +53,7 @@ console.log("".length);             // 0
 <br>
 
 
-## Concatenating Strings
+## Concatenating Strings and ```.concat```
 Concatenation is joining two strings together
 ```js
 console.log("hello" + "world");             // 'helloworld'
@@ -61,8 +61,16 @@ console.log("goodbye" + " " + "moon");      // 'goodbye moon'
 
 let str1 = "hello_"
 let str2 = "world"
-console.log((str1 + str2).indexOf("worl"))  // 6
+console.log(str1 + str2);                   // 'hello_world'
 ```
+
+In addition to using the ```+``` operator, strings can also be concatenated with ```.concat```:
+```js
+let strA = "Bippity Boppity"
+let strB = "Boo"
+console.log(strA + " " + strB);             // 'Bippity Boppity Boo'
+```
+
 <br>
 
 ## ```.trim()```
