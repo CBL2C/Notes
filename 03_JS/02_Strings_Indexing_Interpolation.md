@@ -68,7 +68,7 @@ In addition to using the ```+``` operator, strings can also be concatenated with
 ```js
 let strA = "Bippity Boppity"
 let strB = "Boo"
-console.log(strA + " " + strB);             // 'Bippity Boppity Boo'
+console.log(strA.concat(" ", strB));             // 'Bippity Boppity Boo'
 ```
 
 <br>
