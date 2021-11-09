@@ -1,6 +1,6 @@
 # The Box Model
 
-### The default layout of CSS, or Normal Flow, uses the Box Model.
+**The default layout of CSS, or Normal Flow, uses the Box Model**
 
 Everything in CSS has a box around it
 
