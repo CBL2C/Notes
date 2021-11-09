@@ -1,4 +1,4 @@
-# Strings and Indexing
+# Strings, String Indexing, and String Interpolation
 ## Strings
 What are Strings?
   - strings represent literal text
@@ -17,14 +17,14 @@ Examples:
 "... ";
 ```
 
-#### Escape characters with backslash \
+### Escape characters with backslash \
 ```js
 "He said, \"what's up?\"";
 ```
 - here, "What's up?" is counted as a string WITH the double quotes. Using \ allows the double quotes (or any symbol escaped) to become a character in a string
 
 
-#### Why use different quotes?
+### Why use different quotes?
 ```js
 'Shakespeare wrote, "To be or not to be"';
 // for putting quotes or dialouge in strings
@@ -40,7 +40,7 @@ Strings must not have the same quotes inside them as punctuation:
 <br>
 
 ### Counting String Length
-#### ```.length``` will give you the number of characters in a string:
+**```.length``` will give you the number of characters in a string:**
 ```js
 let ramen = "ramen"
 console.log("ramen".length);        // 5
@@ -50,6 +50,28 @@ console.log("".length);             // 0
 // an empty string returns 0 for length
 ```
 
+<br>
+
+
+## Concatenating Strings
+Concatenation is joining two strings together
+```js
+console.log("hello" + "world");             // 'helloworld'
+console.log("goodbye" + " " + "moon");      // 'goodbye moon'
+
+let str1 = "hello_"
+let str2 = "world"
+console.log((str1 + str2).indexOf("worl"))  // 6
+```
+<br>
+
+## ```.trim()```
+An inbuilt string function, ```.trim()``` trims the whitespace from a string variable and returns a **new string**
+```js
+let message = " What a beautiful day! "
+console.log(message);                       // " What a beautiful day! "
+message.trim();                             // "What a beautiful day!"
+```
 <br>
 
 ## Indexing
@@ -116,24 +138,19 @@ console.log("door hinge".indexOf("hint"));  // -1
 
 <br>
 
-## Concatenating Strings
-Concatenation is joining two strings together
+
+## String Interpolation
+**Ever seen ```${ }``` in javascript?**
+
 ```js
-console.log("hello" + "world");             // 'helloworld'
-console.log("goodbye" + " " + "moon");      // 'goodbye moon'
+let firstName = 'Doctor'
+let lastName = 'Who'
 
-let str1 = "hello_"
-let str2 = "world"
-console.log((str1 + str2).indexOf("worl"))  // 6
+// ! anything inside `${ } ` will be interpreted as javascript
+let sentence = `hello ${firstName} ${lastName}`
+      // hello Doctor Who
+
+// | Basic expressions work as well
+let sentence2 = `${2+1} is larger than ${2-1}`
+      // 3 is larger than 1
 ```
-<br>
-
-## ```.trim()```
-An inbuilt string function, ```.trim()``` trims the whitespace from a string variable and returns a **new string**
-```js
-let message = " What a beautiful day! "
-console.log(message);                       // " What a beautiful day! "
-message.trim();                             // "What a beautiful day!"
-```
-<br>
-
