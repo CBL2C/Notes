@@ -3,16 +3,16 @@
 ## What is Javascript?
 
 ### Javascript's History
-Javascript was originally created as an addition to Netscape Navigator ( a predecessor to Firefox & the most popular browser at the time) 
+Javascript was originally created as an addition to Netscape Navigator (a predecessor to Firefox & the most popular browser at the time) 
 
-JavaScript is not related to the Java programming language.  
+Javascript is not related to the Java programming language.  
 Javascript was merely named similarly because Java was an extremely popular language at the time. The name was an attempt to piggyback on that popularity.
 
-JavaScript became the dominant language for web client-side programming because of early adoption by international standards body ECMA & because of built-in Javascript support by multiple browsers.
+Javascript became the dominant language for web client-side programming because of early adoption by international standards body ECMA & because of built-in Javascript support by multiple browsers.
 
 Javascript and ECMAscript are essentially synonymous. 
 
-The latest major revision of Javascript is ES6 in 2015. This introduced major changes such as const, let, and arrow functions. 
+The latest major revision of Javascript is ES6 in 2015. This introduced major changes such as ```const```, ```let```, and arrow functions. 
 
 
 ## ```console.log```
@@ -20,6 +20,7 @@ The latest major revision of Javascript is ES6 in 2015. This introduced major ch
 
 
 - use ```console.log();``` to print
+- use ```console.log();``` to debug
 ```js
 "hello"                         // Prints nothing.
                                 // The REPL takes in "hello" but has not recieved
@@ -28,9 +29,8 @@ The latest major revision of Javascript is ES6 in 2015. This introduced major ch
 console.log("hello world");     // hello world
 console.log("how are you?");    // how are you?
 ```
-
-- ```console.log();``` should be used for debugging purposes only.
-- Debugging means to locate and solve errors in your code. ```console.log``` is mostly used as a way to debug.
+```console.log();``` should be used for debugging purposes only.   
+Debugging means to locate and solve errors in your code. ```console.log``` is mostly used as a way to debug.
 
 <br>
 
@@ -38,6 +38,7 @@ console.log("how are you?");    // how are you?
 ### Operators
 ```js
 ()      // parenthesis - encloses an operation and makes it highest priority. 
+        
         // If there are multiple operations enclosed in parenthesis, use Order of Operations to determine priority
 
 %       // modulo - divides a number by a number and returns the remainder
