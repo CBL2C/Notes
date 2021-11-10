@@ -120,9 +120,19 @@ console.log(addTwo(1,2));        // undefined
 This function did not run correctly
 
 **What happened?**
-- The function needs to return the value
-- Right now if you dropped a debugger below num1 + num2, it would be evident that num1 + num2 is working correctly
-- However, without telling js to return the value or assign it to a variable it WILL NOT save the value of this equation
+The function needs to return the value
+Right now if you dropped a debugger below num1 + num2, it would be evident that num1 + num2 is working correctly and evaluating as an expression. 
+However, without telling JS to return the value or assign it to a variable, this function **WILL NOT** save the value of this equation.
+
+**Let's fix that:**
+```js
+function addTwo(num1, num2){
+  return num1 + num2;
+
+}
+console.log(addTwo(1,2));        // 3
+```
+
 
 **When using return, keep in mind that nothing PAST return will execute**
 ```js

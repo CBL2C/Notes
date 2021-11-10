@@ -1,61 +1,59 @@
-## Scope and Hoisting
+# Scope and Hoisting
 
-### Scope 
-- The scope of a program in JS is the set of variables that are accessible at a given location in that program
+## Scope 
+The scope of a function in JS is the set of variables that are accessible at a given location in that function
 
-#### Types of Scope in JS
-- Global
-    - Variables defined in the global scope.
-- Local or Function
-    - Global, Parameters, Variables in the function
-- Block 
-    - Global, Local, Variables in the block
+Scope is very important and, at times, feels very abstract. Because of this do not try to fully understand Scope right away nor how you would apply it in the future.
 
-#### Global Scope:
+Instead, try to understand how it is currently blocking you form a particular task. Once your build up your software development skills and start writing more abstract code, you will naturally find yourself in new scenarios that require that next level of understanding.
+
+
+### Types of Scope in JS
+**Global** - Variables defined in the global scope.
+
+**Local or Function** - Global, Parameters, Variables in the function
+
+**Block** - Global, Local, Variables in the block
+
+<br>
+
+### Global Scope:
+Variables declared ouside any function, just out in the open, are considered globally scoped
 ```js
-    const bear = {sound: "RAWR!" }
+    const bear = {
+        sound: "RAWR!" 
+        }
 ```
-#### Local (Function) Scope:
-- Variables declared inside of a function are 'locally-scoped'
-- They cannot be referenced outside of the function
+<br>
+
+### Local (Function) Scope:
+Variables declared inside of a function are 'locally-scoped' - they **cannot** be referenced outside of the function
 ```js
     function bearMaker(name){
-        return "I'm " + name + " the bear Rawr!"
+        let bearString = "I'm " + name + " the bear Rawr!"
+        return bearString
     }
     console.log(bearMaker("Miley"));
 ```
-- Here, the bearMaker function has access to:
-    - incoming arguments (name)
-    - variables declared in the function (bearString)
-    - Function Scope also has access to previously declared variables in the Global Scope
+Here, the ```bearMaker();``` function has access to:
+- incoming arguments (```name```)
+- variables declared in the function (```bearString```)
+- any previously declared variables in the Global Scope
+<br>
 
-#### Block Scope:
+### Block Scope:
 ```js
     if (true) {
         let candle = "fire!"
         console.log(fire);
     }
 ```
----
 
-#### Here's that Local Scope again:
-```js
-    function bearMaker(name){
-        return "I'm " + name + " the bear Rawr!"
-    }
-    console.log(bearMaker("Miley"));
-```
-- Here, the bearMaker function has access to:
-    - incoming arguments (name)
-    - variables declared in the function (bearString)
-    - Function Scope also has access to previously declared variables in the Global Scope
+<br>
 
-#### Scope Chaining:
-- When a function is given a variable it does not have declared in its scope 
-- it will attempt to find a variable within the scope
-- and then go up one scope level to find the variable
+### Scope Chaining:
+When a function is given a variable it does not have declared in its scope, it will attempt to find a variable within the scope, then go up one scope level to find the variable
 
-Example 1:
 ```js
     function garden() {
         let flower = "lily"
@@ -67,9 +65,8 @@ Example 1:
     }
     garden();                            // "lily"
 ```
-Example 2:
-- A function will always use the scope closest to it first
-- Variable scope works inside ---> to out, but not outside to in
+
+A function will always use the scope closest to it first. Variable scope works inside ---> to out, but not outside to in
 ```js
     function garden() {
         let flower = "lily"
@@ -83,12 +80,12 @@ Example 2:
     garden();                            // "Not a lily"
 ```
 
----
+<br>
 
-### Variable Types
-#### Const, Let, and Var
+## Variable Types
+### Const, Let, and Var
 
-#### let
+### ```let```
 Functions with let
 ```js
 let hungry = false
@@ -106,10 +103,11 @@ let hungry = false
     console.log(hungry);                // false
 ```
 
-### var
-#### Functions with var
-- (Don't Use Var)
-- Var is block-scoped and has... weird... behavior 
+### ```var```
+#### Functions with ```var```
+(Don't Use ```var``` unless you are willing to put up with ```var```'s behavior)
+
+```var``` is block-scoped and does not behave like ```let``` or ```const```
 ```js
 var hungry = false
 
@@ -148,8 +146,8 @@ const hungry = false
 ```
 ---
 
-### Hoisting
-#### var
+## Hoisting
+### var
 ```js
     function hoist(){
         console.log(dog)
@@ -172,7 +170,7 @@ const hungry = false
     // here due to hoisting var food can be initialized after being called
     // and it will still work because it was already declared 
 ```
-#### let 
+### let 
 ```js
     function hoist(){
         console.log(dog)
@@ -183,7 +181,7 @@ const hungry = false
     hoist();
 ```
 
-#### const
+### const
 ```js
 function hoist(){
     console.log(dog)
@@ -195,9 +193,8 @@ hoist();
 ```
 ---
 
-### Closures
-#### Closures are HUGE in job interviews
-- An inner function that uses (or changes) variables that were initialized in an outer function
+## Closures
+An inner function that uses (or changes) variables that were initialized in an outer function
 
 ```js
     // Example 1:
