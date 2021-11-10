@@ -283,11 +283,17 @@ Using ```var``` will result in a variable that is function-scoped or globally-sc
 
 If you use ```var```, be aware of the scope issues. More on this in [Scope and Hoisting.](../03_JS/11_Scope_Hoisting.md)
 <br>
+
 **You also need to be aware of several other behaviors of ```var```:**
 Variables defined with ```var``` can be accidentally redeclared:
 ```js
+var x = "purple";
 
+var x = 9;                      // no error will be thrown, this is valid! Say bye to "purple", x is now 9! 
 ```
+
+
+
 <br>
 
 #### Let
