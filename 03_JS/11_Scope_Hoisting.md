@@ -107,7 +107,7 @@ let hungry = false
 #### Functions with ```var```
 (Don't Use ```var``` unless you are willing to put up with ```var```'s behavior)
 
-```var``` is block-scoped and does not behave like ```let``` or ```const```
+```var``` is Function-scoped or Globally-Scoped and does not behave like ```let``` or ```const```
 ```js
 var hungry = false
 

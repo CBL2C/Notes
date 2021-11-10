@@ -271,10 +271,10 @@ Words are run together, the first letter of the first word is *lowercase*, and t
 
 <br>
 
-### Let vs. Const vs. Var
+### ```let``` vs. ```const``` vs. ```var```
 ```let``` and ```const``` have different use cases, while ```var``` is sometimes beloved and sometimes a pariah. 
  
-#### Var
+#### ```var```
 Using ```var``` will result in a variable that is function-scoped or globally-scoped and has behavior inconsistent with what you would get using ```let```. Many developers will tell you **Don't Do it.**
 
 ```js
@@ -282,6 +282,13 @@ Using ```var``` will result in a variable that is function-scoped or globally-sc
  ```
 
 If you use ```var```, be aware of the scope issues. More on this in [Scope and Hoisting.](../03_JS/11_Scope_Hoisting.md)
+<br>
+**You also need to be aware of several other behaviors of ```var```:**
+Variables defined with ```var``` can be accidentally redeclared:
+```js
+
+```
+<br>
 
 #### Let
 Using ```let``` will result in a block-scoped variable with block-scoped behavior.
@@ -291,6 +298,7 @@ bootpairs = 2;                  // Gabby buys a pair of boots and updates her va
 console.log(bootPairs);         // Gabby's variable is 2  
 ```
 Here, Gabby's variable updated because ```let``` is reassignable. 
+<br>
 
 #### Const
 Using ```const``` will result in a variable that is non-reassignable. ```const```, like ```let```, is block-scoped.   
