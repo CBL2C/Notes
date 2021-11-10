@@ -78,28 +78,4 @@ countUpFor();
 ```
 <br>
 
-### Double For Loop
-Sometimes, you need to loop twice without nesting to access data on a second level once you are already looping
 
-Take this array of objects:
-```js
-
-var aniArray = [
-    { name: "Jake", morph: "Tiger" },
-    { name: "Rachel", morph: "Bear" },
-    { name: "Tobias", morph: "Hawk" },             // an array of objects
-    { name: "Cassie", morph: "Wolf" },
-    { name: "Marco", morph: "Gorilla" },
-    { name: "Ax", morph: null }
-];                                       
-
-for (let i = 0; i < aniArray.length; i++) {       // first for loop
-    var currentKidObj = aniArray[i];              // 
-    console.log(currentKidObj.name);
-}
-for (let j = 0; j < aniArray.length; j++) {
-    var currentMorph = aniArray[j];
-    console.log(currentMorph.morph);
-}
-
-```
