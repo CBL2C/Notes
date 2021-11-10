@@ -4,8 +4,8 @@
 ### If Statements
 ```js
 function isItTrue(){
-  if (true === true) {           // ? If true true-equals (===) true,
-      console.log("true");                           // ? print true
+  if (true === true) {                // ? If true strict-equals (===) true,
+      console.log("true");            // ? print true
   }
 }
 ```
@@ -17,34 +17,34 @@ function isItTrue(){
 function isItACat(){
   let c = "cat"                       // ? let c represent cat
 
-  if ( c === "dog") {                 // ? if c true-equals dog,
-    console.log("I'm a dog!");        // ? print dog
-  } else if (c === "turtle") {        // ? or if line 199 doesn't apply, try if c true-equals turtle
-    console.log("I'm a turtle!");     // ? and print turtle
-  } else if (c === "aardvark") {      // ? or if line 201 doesn't apply, try if c true-equals  aardvark
-    console.log("I'm an aardvark!");  // ? print aardvark
-  } else {                            // ? or, if NONE of those worked, default to
-    console.log("it's a mystery!");   // ? print it's a mystery!
+  if ( c === "dog") {                 // ? if c strict-equals "dog",
+    console.log("I'm a dog!");        // ? print "I'm a dog!"
+  } else if (c === "turtle") {        // ? or if not, try if c strict-equals "turtle"
+    console.log("I'm a turtle!");     // ? and print "I'm a turtle!"
+  } else if (c === "aardvark") {      // ? or if not try if c strict-equals "aardvark"
+    console.log("I'm an aardvark!");  // ? print "I'm an aardvark!"
+  } else {                            // ? or, if NONE of those worked, default to:
+    console.log("it's a mystery!");   // ? print "it's a mystery!"
 }
 ```
 
 <br>
 
 ## Loops
-- For and While loops allow code to be executed indefinitely as long as a condition is met
+For and While loops allow code to be executed indefinitely as long as a condition is met
 
-- For loops are great when you know how many iterations you need (e.g. as many as it takes to get through a list)
+For loops are great when you know how many iterations you need (e.g. as many as it takes to get through a list)
 
-- While-loops are great when you have no idea when the iterations will need to stop \ when you want a specific condition to happen and the loop shouldn't stop until then (e.g. until the user finally enters valid input [input validation!] -- or until the user decides to close a menu, etc)
+While-loops are great when you have no idea when the iterations will need to stop \ when you want a specific condition to happen and the loop shouldn't stop until then (e.g. until the user finally enters valid input [input validation!] -- or until the user decides to close a menu, etc)
 
 ### While Loop
 ```js
 function countUpWhile(){
 
-let index = 0                          // set the variable for the condition being met
-                                       // and give it a value
+let index = 0                          // set the variable for the condition being met and give it a value
+
 // ! notice that the index variable is initialized /outside/ the while loop
-                                       // then write your conditional statement
+
 
 while (index < 5) {                    // while the variable index is less than 5
   console.log("counting up...")        // print counting up...
@@ -63,12 +63,12 @@ countUpWhile();
 ```js
 function countUpFor(){
 
-for (index = 0; index < 5 ; index ++){  // the same logic as while on one line
-                                        // set the variable for the condition being met
-                                        // and give it a value
-                                        // while the variable index is less than 5
+for (index = 0; index < 5 ; index ++){  // the same logic as while on one line. Set the variable for the condition 
+                                        // being met and give it a value. While the variable index is less than 5,
                                         // increment variable index by 1
-// ! notice that the index variable is initialized /inside/ the for loop
+
+            // ! notice that the index variable is initialized /inside/ the for loop
+
   console.log("counting up...")         // and print counting up...
 }
 };
@@ -76,4 +76,30 @@ for (index = 0; index < 5 ; index ++){  // the same logic as while on one line
 countUpFor();
 // this is a classic for loop
 ```
+<br>
 
+### Double For Loop
+Sometimes, you need to loop twice without nesting to access data on a second level once you are already looping
+
+Take this array of objects:
+```js
+
+var aniArray = [
+    { name: "Jake", morph: "Tiger" },
+    { name: "Rachel", morph: "Bear" },
+    { name: "Tobias", morph: "Hawk" },             // an array of objects
+    { name: "Cassie", morph: "Wolf" },
+    { name: "Marco", morph: "Gorilla" },
+    { name: "Ax", morph: null }
+];                                       
+
+for (let i = 0; i < aniArray.length; i++) {       // first for loop
+    var currentKidObj = aniArray[i];              // 
+    console.log(currentKidObj.name);
+}
+for (let j = 0; j < aniArray.length; j++) {
+    var currentMorph = aniArray[j];
+    console.log(currentMorph.morph);
+}
+
+```

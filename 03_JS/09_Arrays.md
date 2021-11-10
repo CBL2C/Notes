@@ -135,7 +135,7 @@ for (let i = 0; i < 4; i++) {               // loop
 <br>
 
 ## Pairs in Arrays
-- How to pair up elements of one array to elements of anotehr array
+How to pair up elements of one array to elements of another array
 ```js
 let dogs = ['belka', 'strelka', 'laika', 'dezik']
 
@@ -150,7 +150,7 @@ for(let i = 0; i < dogs.length; i++) {      // loop
 <br>
 
 ## Unique Pairs in Arrays
-- How to pair up elements without ever repeating a pair
+How to pair up elements without ever repeating a pair
 
 ```js
 let dogs = ['belka', 'strelka', 'laika', 'dezik']
