@@ -1,4 +1,4 @@
-# Conditionals and Loops
+# Conditionals, Loops, and Ternary Statements
 
 ## Conditionals
 ### If Statements
@@ -77,5 +77,38 @@ countUpFor();
 // this is a classic for loop
 ```
 <br>
+
+
+## Ternary Statements
+Let's set up an object and a couple variables:
+```js
+var friend1= {firstName:"Alex", lastName:"Smith", age: 21}
+
+var myFriend;
+var isOfAge;
+```
+Take this if statement: 
+```js
+if (friend1.age >= 21){
+  isOfAge = true;
+}
+else {
+  isOfAge = false;
+}
+```
+
+Five lines of code
+
+How can we make that shorter? **Ternary Statements!**
+Ternary Statement structure is:
+```
+variable = expression ? valueForTrue : valueForFalse
+```
+```js
+isOfAge = friend1.age >= 21 ? true : false;
+```
+This says basically the same thing as the ```if``` statement above, but in one line
+
+**HOWEVER**, it is important to remember that writing [Human-Readable Code](../00_START_HERE/03_Human_Readable_Code.md) is more important than writing code that takes less lines. 
 
 
