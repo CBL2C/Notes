@@ -8,13 +8,11 @@ Intermediate hotshot developers write one-line, slick, less readable code that l
 
 Advanced Senior developers write longer, human-readable, easy code, with occasional slick tricks in logical places
 ```
-**What is Human-Readable Code?**
-
+**What is Human-Readable Code?**  
 Human-readable code is just that: code that is easily readable and decipherable by another developer who did not have anything to do with that code's development
 <br>
 
-**Imagine this scenario:**
-
+**Imagine this scenario:**  
 You write a program, intending to develop it in the slickest, shortest, one-line code that you can. You do so. It is beautiful, a work of art. Difficult to read through line-by-line, but you're so proud of how short it is! 
 Then, life happens. Your cat has kittens. Your boss's sister's best friend's uncle gets married. Months pass. You forget you ever wrote that program
 One day, years later, you open an old folder and find it. You open it in your IDE of choice and... what on earth is this half-readable gibberish? 
@@ -22,8 +20,7 @@ One day, years later, you open an old folder and find it. You open it in your ID
 Now imagine you are a new junior developer opening a file to work on at your new job. The code is clear, well-formatted, and has few shortcuts or one-liners. Even with your somewhat limited coding experience you can get through this file and make the changes your team needs. You get done with your work and feel good about your contribution to your job and your overall ability to code
 <br> 
 
-**Writing human-readable code is a critical skill of a good developer**
-
+**Writing human-readable code is a critical skill of a good developer**  
 Human-readable code may be code with longer lines, but it is overall easier to read, decipher, and maintain. 
 
 <br>
