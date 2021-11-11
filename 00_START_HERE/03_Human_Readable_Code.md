@@ -8,8 +8,11 @@ Intermediate hotshot developers write one-line, slick, less readable code that l
 
 Advanced Senior developers write longer, human-readable, easy code, with occasional slick tricks in logical places
 ```
+<br>
+
 **What is Human-Readable Code?**  
 Human-readable code is just that: code that is easily readable and decipherable by another developer who did not have anything to do with that code's development
+
 <br>
 
 **Imagine this scenario:**  
@@ -18,6 +21,7 @@ Then, life happens. Your cat has kittens. Your boss's sister's best friend's unc
 One day, years later, you open an old folder and find it. You open it in your IDE of choice and... what on earth is this half-readable gibberish? 
 
 Now imagine you are a new junior developer opening a file to work on at your new job. The code is clear, well-formatted, and has few shortcuts or one-liners. Even with your somewhat limited coding experience you can get through this file and make the changes your team needs. You get done with your work and feel good about your contribution to your job and your overall ability to code
+
 <br> 
 
 **Writing human-readable code is a critical skill of a good developer**  
@@ -25,7 +29,7 @@ Human-readable code may be code with longer lines, but it is overall easier to r
 
 <br>
 
-(**The following example, from [This Extrenal Resource](https://dev.to/laurieontech/human-readable-javascript-337o), uses [arrow function syntax](../03_JS/05_Arrow_Functions.md) and the [array .map method](../03_JS/10_Array_Methods.md)** - however understanding either is not necessary for this material)
+(**The following example, from [This External Resource](https://dev.to/laurieontech/human-readable-javascript-337o), uses [arrow function syntax](../03_JS/05_Arrow_Functions.md) and the [array .map method](../03_JS/10_Array_Methods.md)** - however understanding either is not necessary for this material)
 
 Consider this arrow function:
 ```js
