@@ -76,8 +76,13 @@ for (index = 0; index < 5 ; index ++){  // the same logic as while on one line. 
 countUpFor();
 // this is a classic for loop
 ```
+
 <br>
 
+## ```break``` statement
+
+
+<br>
 
 ## Ternary Statements
 Let's set up an object and a couple variables:
@@ -110,5 +115,3 @@ isOfAge = friend1.age >= 21 ? true : false;
 This says basically the same thing as the ```if``` statement above, but in one line
 
 **HOWEVER**, it is important to remember that writing [Human-Readable Code](../00_START_HERE/03_Human_Readable_Code.md) is more important than writing code that takes less lines. 
-
-
