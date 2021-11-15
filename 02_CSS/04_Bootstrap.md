@@ -89,5 +89,5 @@ flex-grow: 1;
 While ```.col``` is one selector for columns, there is also ```.col-1``` through ```.col-12```   
 
 Notice how ```.col-4``` and ```.col-6``` behave:  
-<img src="../images/GridColSizes.PNG">
+<img src="../images/GridColSizes.PNG">   
  ```.col-6``` has a built-in ```max-width``` of 50% of the available row space, while ```.col-4``` has a built-in ```max-width``` of 33% of the available row space
