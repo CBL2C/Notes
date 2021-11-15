@@ -17,10 +17,10 @@ Essentially, Bootstrap saves time by avoiding writing lots of CSS, giving back t
 <br>
 
 ## Responsive Grid
-Grid Layout creates a  **12 column wide** grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning for CSS Box Model elements
+Grid Layout creates a **12 column wide** grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning for CSS Box Model elements
 
 ### ```grid```
-A grid layout contains a parent element with one or more child elements:
+A grid layout contains a parent element with one or more child elements. Here is a nine-column grid, with three columns per row:
 ```html
 <div class="grid-container">
   <div class="grid-item">1</div>
@@ -35,14 +35,13 @@ A grid layout contains a parent element with one or more child elements:
 </div>
 ```
 
-Now, to add CSS:
+Now, to add CSS:  
 ```css
 .grid-container {
   display: grid;
 }
 ```
-Which makes:
-
+Which makes:  
 <img src="../images/Grid1.PNG">
 <br>
 
@@ -66,14 +65,17 @@ An Inline-Grid has the same HTML layout as above, but with a single CSS change:
   display: inline-grid;             // changed display from grid to inline-grid
 }
 ```
-And the results:
-
+And the results:  
 <img src="../images/Grid2.PNG">
 
 <br>
 
-### Grid Columns
+**Grid Columns**  
 <img src="../images/GridColumns.PNG">
 
-### Grid Rows
+**Grid Rows**  
 <img src="../images/GridRows.PNG">
+
+<br>
+
+## Responsive Images
