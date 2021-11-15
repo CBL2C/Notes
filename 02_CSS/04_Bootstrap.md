@@ -70,12 +70,24 @@ And the results:
 
 <br>
 
-**Grid Columns**  
+**Grid Columns: a visual guide**  
 <img src="../images/GridColumns.PNG">
 
-**Grid Rows**  
+**Grid Rows: a visual guide**  
 <img src="../images/GridRows.PNG">
 
 <br>
 
-## Responsive Images
+### Column Widths
+Grid colums use the ```flex``` css selector. 
+```css
+.col
+flex-basis: 0;
+flex-grow: 1;
+```
+
+While ```.col``` is one selector for columns, there is also ```.col-1``` through ```.col-12```   
+
+Notice how ```.col-4``` and ```.col-6``` behave:  
+<img src="../images/GridColSizes.PNG">
+ ```.col-6``` has a built-in ```max-width``` of 50% of the available row space, while ```.col-4``` has a built-in ```max-width``` of 33% of the available row space
