@@ -20,7 +20,7 @@ Essentially, Bootstrap saves time by avoiding writing lots of CSS, giving back t
 Grid Layout creates a **12 column wide** grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning for CSS Box Model elements
 
 ### ```grid```
-A grid layout contains a parent element with one or more child elements. Here is a nine-column grid, with three columns per row:
+A basic grid layout contains a parent element with one or more child elements. Here is a nine-column grid, with three columns per row:
 ```html
 <div class="grid-container">
   <div class="grid-item">1</div>
@@ -91,3 +91,22 @@ While ```.col``` is one selector for columns, there is also ```.col-1``` through
 Notice how ```.col-4``` and ```.col-6``` behave:  
 <img src="../images/GridColSizes.PNG">   
  ```.col-6``` has a built-in ```max-width``` of 50% of the available row space, while ```.col-4``` has a built-in ```max-width``` of 33% of the available row space
+
+<br>
+
+
+## Alerts
+
+<br>
+
+## Breadcrumb
+
+<br>
+
+## Cards
+
+<br>
+
+## Carousel
+
+

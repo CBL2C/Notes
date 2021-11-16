@@ -176,3 +176,13 @@ let newFunction = function (parameter1,parameter2){
     // some-code
 }
 ```
+This syntax allows **a variable** to **hold the return value of a function** 
+
+```js
+var twoNumbers = sayHello() {
+  return "hello there"
+}
+```
+```twoNumbers``` now holds the value of ```"hello there"```
+
+
