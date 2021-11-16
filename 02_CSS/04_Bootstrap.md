@@ -95,6 +95,7 @@ Notice how ```.col-4``` and ```.col-6``` behave:
 
 
 ## Alerts
+**[Alert Documentation](https://getbootstrap.com/docs/4.0/components/alerts/)**
 Alerts provide contextual feedback messages for typical user actions.
 ```html
 <div class="alert alert-primary" role="alert">
@@ -109,22 +110,39 @@ Alerts provide contextual feedback messages for typical user actions.
 <div class="alert alert-danger" role="alert">
   This is a danger alert—check it out!
 </div>
-<div class="alert alert-warning" role="alert">
-  This is a warning alert—check it out!
+```
+
+<img src="../images/AlertsBootstrap.PNG"><br>
+
+Alerts can also provide links that are styled to match the alerts themselves
+```html
+<div class="alert alert-primary" role="alert">
+  This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>
-<div class="alert alert-info" role="alert">
-  This is a info alert—check it out!
+<div class="alert alert-secondary" role="alert">
+  This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>
-<div class="alert alert-light" role="alert">
-  This is a light alert—check it out!
-</div>
-<div class="alert alert-dark" role="alert">
-  This is a dark alert—check it out!
+<div class="alert alert-success" role="alert">
+  This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>
 ```
 
-<img src="../images/AlertsBootstrap.PNG">
+<img src="../images/AlertsBootstrapLinks.PNG"><br>
 
+Alerts can also contain additional HTML elements like headings, paragraphs and dividers
+
+```html
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+```
+
+<img src="../images/AlertsBootstrapHTML.PNG"><br>
+
+Please see **[Alert Documentation](https://getbootstrap.com/docs/4.0/components/alerts/)** the for how to dismiss alerts using the Jquery Plugin
 
 <br>
 
