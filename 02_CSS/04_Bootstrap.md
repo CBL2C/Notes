@@ -96,7 +96,7 @@ Notice how ```.col-4``` and ```.col-6``` behave:
 
 ## Alerts
 **[Alert Documentation](https://getbootstrap.com/docs/4.0/components/alerts/)**
-Alerts provide contextual feedback messages for typical user actions.
+Alerts provide contextual feedback messages for typical user actions:
 ```html
 <div class="alert alert-primary" role="alert">
   This is a primary alert—check it out!
@@ -114,7 +114,7 @@ Alerts provide contextual feedback messages for typical user actions.
 
 <img src="../images/AlertsBootstrap.PNG"><br>
 
-Alerts can also provide links that are styled to match the alerts themselves
+Alerts can also provide links that are styled to match the alerts themselves:
 ```html
 <div class="alert alert-primary" role="alert">
   This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
@@ -129,7 +129,7 @@ Alerts can also provide links that are styled to match the alerts themselves
 
 <img src="../images/AlertsBootstrapLinks.PNG"><br>
 
-Alerts can also contain additional HTML elements like headings, paragraphs and dividers
+Alerts can also contain additional HTML elements like headings, paragraphs and dividers:
 
 ```html
 <div class="alert alert-success" role="alert">
@@ -142,11 +142,40 @@ Alerts can also contain additional HTML elements like headings, paragraphs and d
 
 <img src="../images/AlertsBootstrapHTML.PNG"><br>
 
-Please see **[Alert Documentation](https://getbootstrap.com/docs/4.0/components/alerts/)** the for how to dismiss alerts using the Jquery Plugin
+Please see **[Alert Documentation](https://getbootstrap.com/docs/4.0/components/alerts/)** for how to dismiss alerts using the Jquery Plugin
 
 <br>
 
 ## Breadcrumb
+**[Breadcrumb Documentation](https://getbootstrap.com/docs/4.0/components/breadcrumb/)**
+Breadcrumbs are used to indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS:
+```html
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+```
+
+<img src="../images/Breadcrumbs.PNG"><br>
+
+### Accessibility
+Since breadcrumbs provide a navigation, you should add a meaningful label such as ```aria-label="breadcrumb"``` to describe the type of navigation provided in the ```<nav>``` element, as well as applying an ```aria-current="page"``` to the last item of the set to indicate that it represents the current page
 
 <br>
 
