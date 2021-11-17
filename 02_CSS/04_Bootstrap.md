@@ -1,10 +1,12 @@
 # CSS Using Bootstrap
 ## What is Bootstrap?
+**[Bootstrap Main Documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/)**   
 Bootstrap is a giant collection of handy, reusable bits of code written in HTML, CSS, and JavaScript. It’s also a frontend development framework that enables developers and designers to quickly build fully responsive websites.
 
 Essentially, Bootstrap saves time by avoiding writing lots of CSS, giving back time to spend on designing webpages.
 
 **Bootstrap is popular because it has:**
+* Containers
 * Responsive Grid
 * Responsive Images
 * Selected JQuery plugins
@@ -13,6 +15,11 @@ Essentially, Bootstrap saves time by avoiding writing lots of CSS, giving back t
     * Dropdowns
     * Progress bars
     * Thumbnails 
+
+<br>
+
+## Containers
+
 
 <br>
 
@@ -95,7 +102,7 @@ Notice how ```.col-4``` and ```.col-6``` behave:
 
 
 ## Alerts
-**[Alert Documentation](https://getbootstrap.com/docs/4.0/components/alerts/)**
+**[Alert Documentation](https://getbootstrap.com/docs/4.0/components/alerts/)**   
 Alerts provide contextual feedback messages for typical user actions:
 ```html
 <div class="alert alert-primary" role="alert">
@@ -147,7 +154,7 @@ Please see **[Alert Documentation](https://getbootstrap.com/docs/4.0/components/
 <br>
 
 ## Breadcrumb
-**[Breadcrumb Documentation](https://getbootstrap.com/docs/4.0/components/breadcrumb/)**
+**[Breadcrumb Documentation](https://getbootstrap.com/docs/4.0/components/breadcrumb/)**   
 Breadcrumbs are used to indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS:
 ```html
 <nav aria-label="breadcrumb">
