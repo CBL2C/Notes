@@ -24,6 +24,10 @@ Variables declared ouside any function, just out in the open, are considered glo
         sound: "RAWR!" 
         }
 ```
+
+
+***Global*** Scope in javascript can also refer to a web browser window, if the javascript is being deployed in a web environment. In this case, anything globally scoped with have access to the entire browser window. 
+
 <br>
 
 ### Local (Function) Scope:

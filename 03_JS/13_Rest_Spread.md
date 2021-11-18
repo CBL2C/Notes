@@ -1,11 +1,11 @@
-## Rest and Spread Operators
+## ```rest``` and ```spread``` Operators
 
-The Rest and Spread operators use the same exact operator, ```...```, but in very different scenarios
+The ```rest``` and ```spread``` operators use the same exact operator, ```...```, but in very different scenarios
 
-## Rest
-The Rest operator accesses a data structure allowing access to all elements.
+## ```rest```
+The ```rest``` operator accesses a data structure allowing access to all elements.
 
-**Rest is always used in parameters**
+**```rest``` is always used in parameters**
 
 ```js
 function colorPicker(color, ...otherColors){      // ... allows access to all other elements passed in as an array
@@ -29,8 +29,8 @@ console.log(colorPicker("red", "blue", "yellow"));
 ```
 <br>
 
-## Spread
-The spread operator takes in parameters and puts them into a single array
+## ```spread```
+The ```spread``` operator takes in parameters and puts them into a single array
 
 ### Array Usage
 ```js
