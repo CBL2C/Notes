@@ -13,7 +13,7 @@ public class Compiling {
 }
 ```
 
-As mentioned in [**Intro to Java**](../00_Intro_Printing/00_Intro_HelloYou.md) There are **two types of files** in Java: ```.java``` files, which are human-written and human-readable Java code, and ```.class``` files, which are compiled code any computer or device can read using the Java Virtual Machine
+As mentioned in [**Intro to Java**](../00_Intro_Printing/00_Intro_HelloYou.md) There are **two types of files** in Java: ```.java``` files, which are human-written and human-readable Java code, and ```.class``` files, which are compiled into byte code - which any computer or device can read using the Java Virtual Machine
 
 To compile a file (such as ```Compiling.java```), navigate to the directory containing your ```.java``` file and type the following into the Terminal:
 
