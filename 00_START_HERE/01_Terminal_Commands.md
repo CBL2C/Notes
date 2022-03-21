@@ -62,7 +62,7 @@ cat test.js            // print out the contents of test.js
 
 <br>
 
-**Remove a file or directory**
+**Remove a file or directory**  
 **DESTRUCTIVE. BE CAREFUL. THERE AIN'T NO UNDO HERE**
 ```js
 rm                     // removes a file / directory
