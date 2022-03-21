@@ -1,7 +1,7 @@
 # Intro to Java 
 
 **Java runs on many different platforms, but programmers write it all the same way** -- this is achieved by running an instance of the Java Virtual Machine on any given operating system, which can then handle the same code no matter the system. 
-The Java Virtual Machine cannot, however, read human-written code. So after a programmer writes their code as a .java file, that code is *compiled* into a .class file  
+The Java Virtual Machine cannot, however, read human-written code. So after a programmer writes their code as a .java file, that code is [***compiled***](01_Compiling.md) into a .class file  
 
 (For a comprehensive overview of Java, the [**Official Documentation Tutorials**](https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html) are a great place to start. The information in these notes has been drawn from a variety of courses, including Oracle's Java Tutorials. 
 
