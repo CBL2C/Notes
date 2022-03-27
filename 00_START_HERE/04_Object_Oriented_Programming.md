@@ -113,7 +113,7 @@ Think of inheritance: If object A inherits from B, then any piece of code that t
 
 ## Structure of OOP
 
-<img src="../images/OOP_Class.png">
+<img src="../images/OOP_Class.PNG">
 
 <br>
 
