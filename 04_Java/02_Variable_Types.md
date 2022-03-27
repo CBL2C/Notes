@@ -4,7 +4,7 @@
 - [```int```](#int--integers) | **Integers**  -  whole numbers
 - [```double```](#double--decimals) | **Decimals** - decimal numbers 
 - [```boolean```](#boolean--true--false) | **Booleans** - true or false, 1 or 0
-- 
+- [```char```](#char--single-character) | **Characters** - single alphabetic character or symbol
 
 <br>
 
@@ -74,5 +74,34 @@ public class Booleans {
     System.out.println(intsCanHoldDecimals);
         // this prints out the value of intsCanHoldDecimals
 	}
+}
+```
+
+<br>
+
+<br>
+
+## ```char``` |  Single Character
+
+```char``` is a type of variable that represents a single alphabetical character, or a symbol
+
+[```Symbols.java```](/00_Java_files/Symbols.java)
+
+```java
+public class Symbols {
+    public static void main(String[] args) { 
+
+        char cashSymbol = $;
+        // This is the char variable cashSymbol, which holds the value of $
+    
+        char firstInitial = M;
+        // This is the char variable firstInitial, which holds the value of M
+
+        System.out.println(cashSymbol);
+        // This prints out the value of cashSymbol
+
+        System.out.println(firstInitial);
+        // This prints out the value of firstInitial
+    }
 }
 ```
